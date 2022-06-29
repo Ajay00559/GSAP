@@ -3,14 +3,14 @@ gsap.from(".move",{
    left:"-430px",
    duration:4,
    // delay:2,
-   ease:Expo.easeInOut
+   ease:Expo.ease
 }) 
 gsap.to(".move",{
    top:"-100px",
    left:"-350px",
    duration:2,
    delay:4,
-   ease:Expo.easeInOut
+   ease:Expo.ease
 }) 
 
 
@@ -45,7 +45,7 @@ tl.from("#part2>h1>span",{
    scale:1.5,
    duration:2,
    // delay:2,
-   ease:Expo.easeInOut,
+   ease:Expo.ease,
 },4)
 .from(".part3",{
    bottom:"-100px",
@@ -53,14 +53,14 @@ tl.from("#part2>h1>span",{
    scale:1.5,
    duration:2,
    // delay:2,
-   ease:Expo.easeInOut,
+   ease:Expo.ease,
 },4)
 .from(".part1 h1",{
    opacity:0,
    scale:2,
    duration:2,
    // delay:2,
-   ease:Expo.easeInOut,
+   ease:Expo.ease,
 },4)
    
 // tl.from("#part2>h1>span",{
@@ -75,7 +75,7 @@ tl.from("#part2>h1>span",{
 // document.querySelector()
 gsap.to(".b3",{
    width:"100%",
-   duration:4,
+   duration:2,
    delay:6,
    ease:Expo.ease
  })
@@ -84,7 +84,7 @@ gsap.to(".b3",{
    marginLeft:"150",
    width:"100px",
    height:"102%",
-   duration:4,
+   duration:2,
    delay:6,
    ease:Expo.ease
  })
@@ -99,65 +99,65 @@ gsap.to(".b3",{
    //  height:"100%",
    //  width:"150px",
    borderLeft:"800",
-   duration:4,
-   delay:6,
+   borderRight:"3040",
+   duration:2,
+   delay:4,
    ease:Expo.ease
  })
  gsap.to(".move",{
    top:"-100px",
    left:"-50px",
    duration:2,
-   delay:10,
-   ease:Expo.easeInOut
+   delay:8,
+   ease:Expo.ease
  })
  gsap.to(".move",{
    top:"00px",
    left:"-450px",
    duration:2,
-   delay:12,
-   ease:Expo.easeInOut
+   delay:10,
+   ease:Expo.ease
  })
  gsap.to(".b2",{
    width:"100%",
-   duration:4,
-   delay:15,
+   duration:2,
+   delay:13,
    ease:Expo.ease
  })
  gsap.to(".blc1",{
    width:"100",
    marginLeft:"0",
-   duration:4,
-   delay:15,
+   duration:2,
+   delay:13,
    ease:Expo.ease
  })
  gsap.to(".blc3",{
-   // width:"100",
-   // marginLeft:"0",
+    
    height:"400",
-   duration:4,
-   delay:15,
+   duration:2,
+   delay:13,
    ease:Expo.ease
  })
  gsap.to(".move",{
-   borderTop:"101",
+  //  borderTop:"101",
    borderBottom:"1400",
    borderRight:"3100",
-   duration:4,
-   delay:15,
+   duration:2,
+   delay:13,
    ease:Expo.ease
  })
  gsap.to(".move",{
    top:"-200",
    left:"-300",
-   duration:4,
-   delay:19,
+   duration:2,
+   delay:15,
    ease:Expo.ease
  })
  gsap.to(".move",{
    top:"0",
    left:"-500",
-   duration:4,
-   delay:23,
+   duration:2,
+   delay:17,
    ease:Expo.ease
  })
 
